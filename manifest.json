@@ -1,0 +1,19 @@
+{
+  "name": "Detherscan",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.etherscan.io/*"
+      ],
+      "css": [
+        "styles.css"
+      ],
+      "js": [
+        "content.js"
+      ]
+    }
+  ],
+  "permissions": []
+}

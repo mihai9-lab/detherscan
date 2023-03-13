@@ -1,0 +1,20 @@
+#deth-link{
+  width:100%;
+  display: flex;
+  align-items: center;
+  font-family: var(--bs-body-font-family);
+  font-size:22px;
+  margin-left: 20px;
+  color:#21325b;
+  background:unset;
+  border:unset;
+  padding:0;
+}
+#deth-link img{
+    height: 34px;
+    margin-right:5px;
+}
+#masterHeader > nav > div > a{
+  display: flex;
+  align-items: center;
+}
