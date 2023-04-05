@@ -1,4 +1,4 @@
-const isContract = document.querySelector("#content > section:nth-child(13) > div > div.d-flex.flex-column.gap-2 > div > div.d-flex.flex-wrap.align-items-center.gap-2 > div > h1").innerHTML.includes('Contract')
+const isContract = document.querySelector("#content > section:first-of-type > div > div:first-of-type > div > div:first-of-type > div > h1").innerHTML.includes('Contract')
 if(isContract){
   const link = window.location.href;
   const dethLink = link.replace('.io','.deth.net');
